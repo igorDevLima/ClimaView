@@ -10,6 +10,18 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      "sunny": "#F1CC38",
+      "clean": "#48AFCF",
+      "rainy": "#32486C",
+      'white': '#ffffff'
+    },
+    opacity: {
+      "57": '.57'
+    },
+    fontFamily: {
+      'sans': ['Roboto', 'sans-serif'],
+    },
   },
   plugins: [],
 };
