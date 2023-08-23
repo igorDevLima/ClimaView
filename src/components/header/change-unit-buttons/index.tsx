@@ -1,13 +1,18 @@
+'use client';
+import { Button, ButtonGroup } from 'react-bootstrap';
+
 const ChangeUnit: React.FC = () => {
   return (
     <>
-      <div>
-        <button id="unit-temperature-c">°C</button>
-        <button id="unit-temperature-f">°F</button>
-      </div>
-      <div>
-        <button id="unit-rain-mm">mm</button>
-        <button id="unit-rain-inch">inch</button>
+      <div className="m-3 flex flex-wrap gap-x-4 gap-y-2">
+        <ButtonGroup aria-label="Basic example">
+          <Button variant="secondary">mm</Button>
+          <Button variant="secondary">inch</Button>
+        </ButtonGroup>
+        <ButtonGroup aria-label="Basic example">
+          <Button variant="secondary">°C</Button>
+          <Button variant="secondary">°F</Button>
+        </ButtonGroup>
       </div>
     </>
   );
