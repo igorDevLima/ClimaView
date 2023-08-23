@@ -12,19 +12,17 @@ const roboto = Roboto({
 
 const Header: React.FC = () => {
   return (
-    <header>
-      <div className="search-result">
-        <p id="city"></p>
-        <p id="date"></p>
+    <header className="w-100% pt-12 flex justify-around items-center ">
+      <div className="flex flex-col justify-start items-start">
+        <p className={roboto.className} style={{ fontSize: '48px' }}>
+          São Paulo
+        </p>
+        <p className={roboto.className} style={{ fontSize: '32px' }}>
+          Segunda-feira, 28 Nov 2022
+        </p>
       </div>
       <div className="button-select">
         <ChangeUnit />
-      </div>
-      {/* <div className="button-mobile">
-        <button id="unit-temperature-c-mobile">°C</button>
-        <button id="unit-rain-mm-mobile">mm</button>
-      </div> */}
-      <div className="search">
         <SearchBox />
       </div>
     </header>
