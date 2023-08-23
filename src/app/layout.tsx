@@ -1,3 +1,14 @@
+import { Metadata } from 'next';
+
+import Header from '../components/header';
+
+//add bootstrap css
+import 'bootstrap/dist/css/bootstrap.css';
+
+import './globals.css';
+import Head from 'next/head';
+
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-br">
