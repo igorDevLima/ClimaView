@@ -21,10 +21,8 @@ const Header: React.FC = () => {
           Segunda-feira, 28 Nov 2022
         </p>
       </div>
-      <div className="button-select">
-        <ChangeUnit />
-        <SearchBox />
-      </div>
+      <ChangeUnit />
+      <SearchBox />
     </header>
   );
 };
