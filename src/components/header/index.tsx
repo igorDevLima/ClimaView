@@ -1,6 +1,15 @@
 import ChangeUnit from './change-unit-buttons';
 import SearchBox from './searchBox';
 
+import { Roboto } from 'next/font/google';
+
+const roboto = Roboto({
+  weight: ['700'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
 const Header: React.FC = () => {
   return (
     <header>
