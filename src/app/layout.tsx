@@ -8,6 +8,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './globals.css';
 import Head from 'next/head';
 
+export const metadata: Metadata = {
+  title: 'Climaview',
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
