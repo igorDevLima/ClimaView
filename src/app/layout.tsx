@@ -18,6 +18,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+        <Header />
+        {children}
     </html>
   );
 }
